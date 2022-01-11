@@ -7,15 +7,15 @@ const assertEqual = function(actual, expected) {
 };
 
 const head = function(array) {
-  let first = array[0]
-    if (array.length === 0) {
-      return (undefined);
-    } else if (array.length === 1) {
-     return (array[0]);
-    } else {
-      return first;
+  let first = array[0];
+  if (array.length === 0) {
+    return (undefined);
+  } else if (array.length === 1) {
+    return (array[0]);
+  } else {
+    return first;
   }
-}
+};
 
 
 assertEqual(head([]), undefined);
