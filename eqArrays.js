@@ -16,8 +16,7 @@ const eqArrays = function(arr1, arr2) {
       }
   }
   return true;
-}
+};
 
 
 assertEqual(eqArrays([1, 2, 3], [1, '2', 3]), false); // => should PASS
-//&& typeof arr1[i] !== typeof arr2[i]

@@ -13,10 +13,7 @@ let keyArr = Object.keys(object)
     if (object[key] === value) {
       return key;
     }
-
   }
-
-
 };
 
 
