@@ -7,10 +7,11 @@ const assertEqual = function(actual, expected) {
 };
 
 const findKey = function(object, callback) {
-let valArr = Object.values(object);
-for (const val of valArr) {
-  if(object[val] === callback) {
-    return val;
+let keyArr = Object.keys(object);
+for (const key of keyArr) {
+  
+  if(callback(object[key])) {
+    return key;
   }
 }
 }
@@ -28,11 +29,3 @@ console.log(findKey({
 
 
 
-/*const findKeyByValue = function(object, value) {
-let keyArr = Object.keys(object)
-for (const key of keyArr) {
-  if (object[key] === value) {
-    return key;
-  }
-}
-};*/
