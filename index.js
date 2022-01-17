@@ -14,18 +14,37 @@ const countOnly = require('./countOnly');
 const countLetters = require('./countLetters');
 
 module.exports = {
-  head: head,
-  tail: tail,
-  middle: middle,
-  eqArrays: eqArrays,
-  assertEqual: assertEqual,
-  assertArraysEqual: assertArraysEqual,
-  assertObjectsEqual: assertObjectsEqual,
-  eqObjects: eqObjects,
-  map: map,
-  letterPositions: letterPositions,
-  findKeyByValue: findKeyByValue,
-  findKey: findKey,
-  countOnly: countOnly,
-  countLetters: countLetters
+  head,
+  tail,
+  middle,
+  eqArrays,
+  assertEqual,
+  assertArraysEqual,
+  assertObjectsEqual,
+  eqObjects,
+  map,
+  letterPositions,
+  findKeyByValue,
+  findKey,
+  countOnly,
+  countLetters
 };
+
+
+
+// module.exports = {
+//   head: head,
+//   tail: tail,
+//   middle: middle,
+//   eqArrays: eqArrays,
+//   assertEqual: assertEqual,
+//   assertArraysEqual: assertArraysEqual,
+//   assertObjectsEqual: assertObjectsEqual,
+//   eqObjects: eqObjects,
+//   map: map,
+//   letterPositions: letterPositions,
+//   findKeyByValue: findKeyByValue,
+//   findKey: findKey,
+//   countOnly: countOnly,
+//   countLetters: countLetters
+// };
