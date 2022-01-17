@@ -5,6 +5,4 @@ const assertEqual = function(actual, expected) {
     console.log("🛑🛑🛑  Assertion Failed: ", actual, " !== ", expected);
   }
 };
-
-assertEqual("Bootcamp", "Bootcamp");
-assertEqual(1, 2);
+module.exports = assertEqual;
